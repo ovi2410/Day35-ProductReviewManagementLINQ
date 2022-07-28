@@ -36,3 +36,6 @@ Console.ReadLine();
 //UC6
 management.SkipRecord(productReviewList);
 Console.ReadLine();
+//UC7
+management.DataTables();
+Console.ReadLine();
