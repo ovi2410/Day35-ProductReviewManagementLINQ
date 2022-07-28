@@ -1,7 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
-// See https://aka.ms/new-console-template for more information
-
 using LINQProductReview;
 
 Console.WriteLine("Welcome to product review management");
@@ -24,13 +22,15 @@ List<ProductReview> productReviewList = new List<ProductReview>()
             };
 productReviewList.Add(new ProductReview() { ProducID = 11, UserID = 1, Rating = 3, Review = "nice", isLike = true });
 
-
-
 //UC2
 Management management = new Management();
-//management.TopRecords(productReviewList);
+management.TopRecords(productReviewList);
 
 //UC3
-//management.SelectedRecords(productReviewList);
+management.SelectedRecords(productReviewList);
 //UC4
-//management.RetrieveCountOfRecords(productReviewList);
+management.RetrieveCountOfRecords(productReviewList);
+//UC5
+management.RetriveProductIdAndReview(productReviewList);
+Console.ReadLine();
+
