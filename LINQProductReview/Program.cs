@@ -39,3 +39,7 @@ Console.ReadLine();
 //UC7
 management.DataTables();
 Console.ReadLine();
+//UC8
+management.AvgRating(productReviewList);
+Console.ReadLine();
+
